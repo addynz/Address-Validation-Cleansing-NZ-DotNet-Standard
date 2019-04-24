@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.4.0</Version>
+    <Authors>Addy Ltd</Authors>
+    <Company>Addy Ltd</Company>
+    <PackageTags>address autocomplete validation finder lookup</PackageTags>
+    <PackageProjectUrl>https://www.addy.co.nz/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/addynz/Address-Validation-API-DotNet</RepositoryUrl>
+    <Description>Address Search and Validation API for New Zealand postal codes, urban and rural delivery addresses.</Description>
+    <Copyright>Addy Ltd</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>
